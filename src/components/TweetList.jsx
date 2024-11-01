@@ -41,7 +41,7 @@ const TweetList = () => {
     useEffect(() => {
         const fetchTweets = async () => {     
             try {
-                const res = await fetch(`https://gltyjw8nvl.execute-api.us-east-1.amazonaws.com/api/getAllTweets`);
+                const res = await fetch(`https://ykxlvllmz3.execute-api.us-east-1.amazonaws.com/TwiterC`);
                 if(!res.ok){
                     throw new Error('Error al obtener los tweets');
                 }
