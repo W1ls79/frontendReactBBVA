@@ -52,7 +52,7 @@ const TweetsContainer = () => {
             const newTweet = { id: uuidv4(),tweet, author }
 
             try {
-                const response = await fetch(`https://gltyjw8nvl.execute-api.us-east-1.amazonaws.com/api/create`,{
+                const response = await fetch(`https://ykxlvllmz3.execute-api.us-east-1.amazonaws.com/TwiterC`,{
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
